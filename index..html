@@ -1,11 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage with Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 20px 0;
+        }
+        .image-container {
+            text-align: center;
+        }
+    </style>
+</head>
 <body>
 
-<h2>HTML Images</h2>
-<p>HTML images are defined with the img tag:</p>
+    <header>
+        <h1>Welcome to My Webpage with Images</h1>
+    </header>
 
-<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>This is the homepage of my website, where you can see some cool images!</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>Learn more about the purpose of this page and how I use images to enhance the user experience.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="image-container">
+                <img src="https://via.placeholder.com/600x400" alt="Placeholder Image 1">
+                <img src="https://via.placeholder.com/600x400" alt="Placeholder Image 2">
+                <img src="https://via.placeholder.com/600x400" alt="Placeholder Image 3">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Webpage with Images</p>
+    </footer>
 
 </body>
 </html>
